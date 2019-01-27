@@ -7,3 +7,10 @@ if country == 'taiwan':
 		print('還不能考')
 	else:
 		print('可以考')
+elif country == 'america':
+    if age < 20:
+    	print('還不能考')
+    else:
+    	print('可以考')
+else:
+	print('only taiwan or america') 
